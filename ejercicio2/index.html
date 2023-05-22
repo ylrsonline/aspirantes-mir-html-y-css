@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Login</title>
 </head>
 <body>
+
+    <div class="contenedor">
+    <form class="form">
+        <h1>Login</h1>
+
+        <label class="fuente" for="email">Email</label> <br />
+        <input type="text" id="email" name="email"/><br />
+
+        <label for="password">Password</label> <br />
+        <input type="password" id="password" name="password"/><br />
+
+        <label for="genero">Género</label> <br />
+        <select name="genero" id="genero">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+        </select>  
+    </form>
+    <br />
+    <input type="checkbox" name="acepto" value="" />    
+    Acepto los términos <br /><br />
+
+    <div class="boton">
+        <input type="submit" value="Ingresar">
+    </div>
     
+ </div>
 </body>
 </html>
